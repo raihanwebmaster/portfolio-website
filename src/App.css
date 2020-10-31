@@ -80,12 +80,12 @@ a {
       main .lg-heading {
         line-height: 1;
         margin-bottom: 1rem; }
-    .about-info {
-      grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-      grid-template-columns: 1fr; }
-    .projects {
-      grid-template-columns: repeat(2, 1fr); } }
-  
+      .summari{
+        text-align: justify;
+    }
+
+    }
+        
   @media screen and (max-width: 500px) {
     main {
       padding: 2rem; }
@@ -94,5 +94,12 @@ a {
       main .lg-heading {
         margin-top: 1rem;
         font-size: 3rem; }
-    .projects {
-      grid-template-columns: 1fr; } }
+        .summari{
+            text-align: justify;
+        }
+        #main-footer{
+          font-size: small;
+        }
+       
+    }
+    

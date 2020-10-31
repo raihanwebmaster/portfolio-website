@@ -14,18 +14,18 @@ const About = () => {
       </h2>
             <div className="about-info">
                 <div className='row mb-5'>
-                    <div className='col-md-4'>
-                    <img src={raihan} alt="John Doe" className="bio-image" />
+                    <div className='col-md-4  d-flex justify-content-center'>
+                    <img src={raihan} alt="John Doe" className="bio-image " />
                     </div>
                     <div className='col-md-8'>
-                    <p className='bio mt-5'>
+                    <p className='bio mt-5 summari'>
           Passionate web app developer. Always try to grab the new features of technology. Last few years made myself skilled in the field of web application development. Acquired to maintain strong interpersonal relationships with teammates. I am passionate about providing care to my work, which keeps me motivated and excited about doing my best work
         </p>
                     </div>
                 </div>
 
                 <div className='row'>
-                    <div className="col-12 mb-5 col-md-4 about" style={{height:'220px'}}>
+                    <div className="col-12  col-md-4 about" style={{minHeight:'220px'}}>
                         <div class="card " >
                             <div class="card-body">
                                 <h5 style={{ color: 'black' }} class="card-title">Skills</h5>
@@ -42,8 +42,8 @@ const About = () => {
 
                     </div>
 
-                    <div className=" col-12  mb-5 col-md-4 about  ">
-                        <div class="card  " style={{height:'220px'}} >
+                    <div className=" col-12   col-md-4 about  ">
+                        <div class="card  " style={{minHeight:'220px'}} >
                             <div class="card-body">
                                 <h5 style={{ color: 'black' }} class="card-title">Personal Info</h5>
                                 <p style={{ color: 'black' }} class="card-text">
@@ -59,8 +59,8 @@ const About = () => {
 
                     </div>
 
-                    <div className="col-12 mb-5 col-md-4 about ">
-                        <div class="card " style={{height:'220px'}}>
+                    <div className="col-12  col-md-4 about ">
+                        <div class="card " style={{minHeight:'220px'}}>
                             <div class="card-body">
                                 <h5 style={{ color: 'black' }} class="card-title">Education</h5>
                                 <p style={{ color: 'black' }} class="card-text">
@@ -77,7 +77,7 @@ const About = () => {
                 </div>
             </div>
             <div className="cv">
-            <Link  onClick={() => window.open('https://drive.google.com/file/d/1f_KVzVp7IuihtebQswx8IgG4biINNhlR/view?usp=sharing')}   className="glow-on-hover">Download CV</Link>
+            <Link  onClick={() => window.open('https://drive.google.com/file/d/1rktUKASq_OQYXt_n30JI8k3zOyhKsDce/view?usp=sharing')}   className="glow-on-hover">Download CV</Link>
             </div>
 
 

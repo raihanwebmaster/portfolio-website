@@ -5,6 +5,8 @@ import { faTwitter, faFacebookSquare, faLinkedin, faGithub } from '@fortawesome/
 import Typical from 'react-typical';
 import Particles from "react-particles-js";
 import { particlesOptions } from '../../particlesOptions';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 const Home = () => {
   return (
@@ -17,7 +19,7 @@ const Home = () => {
      Raihan 
       <span className="secondary-color"> Uddin</span>
     </h1>
-    <h2 className="sm-heading">
+    <h2 className="sm-heading mt-2">
       Hi, I am {' '}
       <Typical
         steps={[
@@ -42,8 +44,13 @@ const Home = () => {
       <a target="_blank" href="https://github.com/raihanwebmaster">
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
+      <br/>
+      <Button onClick={() => window.open('https://drive.google.com/file/d/1rktUKASq_OQYXt_n30JI8k3zOyhKsDce/view?usp=sharing')}  className='mt-3' id="resume" variant="outline-warning">Download Resume</Button>
+
+      
     </div>
   </main>
+
   // </Particles>
   );
 }

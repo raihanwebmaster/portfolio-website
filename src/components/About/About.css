@@ -36,3 +36,13 @@
         grid-area: bio;
         font-size: 1.5rem; 
     }
+  @media screen and (max-width: 768px){
+      .about{
+        margin-bottom: 50px;
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      .about{
+        margin-bottom: 50px;
+      }
+    }

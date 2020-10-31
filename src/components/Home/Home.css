@@ -1,0 +1,14 @@
+
+#resume{
+    border: 1px solid white;
+    color: white;
+}
+#resume:hover{
+    color: black;
+}
+#resume:active{
+    background-color: #eece1a;
+}
+#resume:focus{
+    box-shadow: none;
+}
